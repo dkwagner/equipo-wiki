@@ -3,5 +3,5 @@ rvm:
   - 2.5.1
 script:
   - RAILS_ENV=test bundle exec rake db:migrate --trace
-  - bundle exec rake db:test:prepare
-  - bundle exec rake
+  - bundle exec rake spec
+  - docker build .
