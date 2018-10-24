@@ -43,7 +43,8 @@ RSpec.describe ImagesController, type: :controller do
 
   describe "GET #index" do
     it "returns a success response" do
-      Image.create! valid_attributes
+      # TODO Add valid image attributes later
+      Image.create!
       get :index, params: {}, session: valid_session
       expect(response).to be_successful
     end
@@ -51,7 +52,8 @@ RSpec.describe ImagesController, type: :controller do
 
   describe "GET #show" do
     it "returns a success response" do
-      image = Image.create! valid_attributes
+      # TODO Add valid image attributes later
+      image = Image.create!
       get :show, params: {id: image.to_param}, session: valid_session
       expect(response).to be_successful
     end
@@ -66,7 +68,8 @@ RSpec.describe ImagesController, type: :controller do
 
   describe "GET #edit" do
     it "returns a success response" do
-      image = Image.create! valid_attributes
+      # TODO Add valid image attributes later
+      image = Image.create!
       get :edit, params: {id: image.to_param}, session: valid_session
       expect(response).to be_successful
     end
@@ -76,12 +79,14 @@ RSpec.describe ImagesController, type: :controller do
     context "with valid params" do
       it "creates a new Image" do
         expect {
-          post :create, params: {image: valid_attributes}, session: valid_session
+          # TODO Add valid image attributes later
+          post :create, params: {}, session: valid_session
         }.to change(Image, :count).by(1)
       end
 
       it "redirects to the created image" do
-        post :create, params: {image: valid_attributes}, session: valid_session
+        # TODO Add valid image attributes later
+        post :create, params: {}, session: valid_session
         expect(response).to redirect_to(Image.last)
       end
     end
@@ -101,22 +106,25 @@ RSpec.describe ImagesController, type: :controller do
       }
 
       it "updates the requested image" do
-        image = Image.create! valid_attributes
+        # TODO Add valid image attributes later
+        image = Image.create!
         put :update, params: {id: image.to_param, image: new_attributes}, session: valid_session
         image.reload
         skip("Add assertions for updated state")
       end
 
       it "redirects to the image" do
-        image = Image.create! valid_attributes
-        put :update, params: {id: image.to_param, image: valid_attributes}, session: valid_session
+        # TODO Add valid image attributes later
+        image = Image.create!
+        put :update, params: {id: image.to_param}, session: valid_session
         expect(response).to redirect_to(image)
       end
     end
 
     context "with invalid params" do
       it "returns a success response (i.e. to display the 'edit' template)" do
-        image = Image.create! valid_attributes
+        # TODO Add valid image attributes later
+        image = Image.create!
         put :update, params: {id: image.to_param, image: invalid_attributes}, session: valid_session
         expect(response).to be_successful
       end
@@ -125,14 +133,16 @@ RSpec.describe ImagesController, type: :controller do
 
   describe "DELETE #destroy" do
     it "destroys the requested image" do
-      image = Image.create! valid_attributes
+      # TODO Add valid image attributes later
+      image = Image.create!
       expect {
         delete :destroy, params: {id: image.to_param}, session: valid_session
       }.to change(Image, :count).by(-1)
     end
 
     it "redirects to the images list" do
-      image = Image.create! valid_attributes
+      # TODO Add valid image attributes later
+      image = Image.create!
       delete :destroy, params: {id: image.to_param}, session: valid_session
       expect(response).to redirect_to(images_url)
     end
