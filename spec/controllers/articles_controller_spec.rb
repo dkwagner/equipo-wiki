@@ -29,7 +29,7 @@ RSpec.describe ArticlesController, type: :controller do
   # Article. As you add validations to Article, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) {
-    skip("Add a hash of attributes valid for your model")
+    # skip("Add a hash of attributes valid for your model")
   }
 
   let(:invalid_attributes) {
@@ -43,7 +43,7 @@ RSpec.describe ArticlesController, type: :controller do
 
   describe "GET #index" do
     it "returns a success response" do
-      Article.create! valid_attributes
+      Article.create! 
       get :index, params: {}, session: valid_session
       expect(response).to be_successful
     end
@@ -51,7 +51,7 @@ RSpec.describe ArticlesController, type: :controller do
 
   describe "GET #show" do
     it "returns a success response" do
-      article = Article.create! valid_attributes
+      article = Article.create!
       get :show, params: {id: article.to_param}, session: valid_session
       expect(response).to be_successful
     end
@@ -66,7 +66,7 @@ RSpec.describe ArticlesController, type: :controller do
 
   describe "GET #edit" do
     it "returns a success response" do
-      article = Article.create! valid_attributes
+      article = Article.create! 
       get :edit, params: {id: article.to_param}, session: valid_session
       expect(response).to be_successful
     end
@@ -76,12 +76,12 @@ RSpec.describe ArticlesController, type: :controller do
     context "with valid params" do
       it "creates a new Article" do
         expect {
-          post :create, params: {article: valid_attributes}, session: valid_session
+          post :create, session: valid_session
         }.to change(Article, :count).by(1)
       end
 
       it "redirects to the created article" do
-        post :create, params: {article: valid_attributes}, session: valid_session
+        post :create, session: valid_session
         expect(response).to redirect_to(Article.last)
       end
     end
@@ -101,22 +101,22 @@ RSpec.describe ArticlesController, type: :controller do
       }
 
       it "updates the requested article" do
-        article = Article.create! valid_attributes
+        article = Article.create! 
         put :update, params: {id: article.to_param, article: new_attributes}, session: valid_session
         article.reload
         skip("Add assertions for updated state")
       end
 
       it "redirects to the article" do
-        article = Article.create! valid_attributes
-        put :update, params: {id: article.to_param, article: valid_attributes}, session: valid_session
+        article = Article.create! 
+        put :update, params: {id: article.to_param}, session: valid_session
         expect(response).to redirect_to(article)
       end
     end
 
     context "with invalid params" do
       it "returns a success response (i.e. to display the 'edit' template)" do
-        article = Article.create! valid_attributes
+        article = Article.create! 
         put :update, params: {id: article.to_param, article: invalid_attributes}, session: valid_session
         expect(response).to be_successful
       end
@@ -125,14 +125,14 @@ RSpec.describe ArticlesController, type: :controller do
 
   describe "DELETE #destroy" do
     it "destroys the requested article" do
-      article = Article.create! valid_attributes
+      article = Article.create! 
       expect {
         delete :destroy, params: {id: article.to_param}, session: valid_session
       }.to change(Article, :count).by(-1)
     end
 
     it "redirects to the articles list" do
-      article = Article.create! valid_attributes
+      article = Article.create! 
       delete :destroy, params: {id: article.to_param}, session: valid_session
       expect(response).to redirect_to(articles_url)
     end
