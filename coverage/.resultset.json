@@ -1,42 +1,42 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/dan/Documents/school/cs4711/equipo-wiki/equipo-wiki/app/jobs/application_job.rb": [
+      "/home/pi6286/RubymineProjects/equipo-wiki/app/helpers/application_helper.rb": [
         0,
         0
       ],
-      "/home/dan/Documents/school/cs4711/equipo-wiki/equipo-wiki/app/models/application_record.rb": [
-        0,
-        0,
-        0
-      ],
-      "/home/dan/Documents/school/cs4711/equipo-wiki/equipo-wiki/app/controllers/application_controller.rb": [
+      "/home/pi6286/RubymineProjects/equipo-wiki/app/jobs/application_job.rb": [
         0,
         0
       ],
-      "/home/dan/Documents/school/cs4711/equipo-wiki/equipo-wiki/app/helpers/application_helper.rb": [
+      "/home/pi6286/RubymineProjects/equipo-wiki/app/controllers/application_controller.rb": [
         0,
         0
       ],
-      "/home/dan/Documents/school/cs4711/equipo-wiki/equipo-wiki/app/mailers/application_mailer.rb": [
+      "/home/pi6286/RubymineProjects/equipo-wiki/app/channels/application_cable/channel.rb": [
         0,
         0,
         0,
         0
       ],
-      "/home/dan/Documents/school/cs4711/equipo-wiki/equipo-wiki/app/channels/application_cable/connection.rb": [
+      "/home/pi6286/RubymineProjects/equipo-wiki/app/channels/application_cable/connection.rb": [
         0,
         0,
         0,
         0
       ],
-      "/home/dan/Documents/school/cs4711/equipo-wiki/equipo-wiki/app/channels/application_cable/channel.rb": [
+      "/home/pi6286/RubymineProjects/equipo-wiki/app/models/application_record.rb": [
+        0,
+        0,
+        0
+      ],
+      "/home/pi6286/RubymineProjects/equipo-wiki/app/mailers/application_mailer.rb": [
         0,
         0,
         0,
         0
       ]
     },
-    "timestamp": 1540320696
+    "timestamp": 1540349314
   }
 }
