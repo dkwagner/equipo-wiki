@@ -4,6 +4,7 @@ rvm:
 script:
   - RAILS_ENV=test bundle exec rake db:migrate --trace
   - bundle exec rake spec
+after_success:
   - docker build -t epotter22/equipo-wiki .
   - ID="$(docker images | grep 'epotter22/equipo-wiki' | head -n 1 | awk '{print $3}')"
   - docker login -u epotter22 -p '|34ccwLF(LY|'
