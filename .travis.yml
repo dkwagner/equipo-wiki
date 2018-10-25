@@ -8,3 +8,6 @@ after_success:
   - docker build -t epotter22/equipo-wiki .
   - docker login -u epotter22 -p '|34ccwLF(LY|'
   - docker push epotter22/equipo-wiki
+branches:
+  only:
+  - master
