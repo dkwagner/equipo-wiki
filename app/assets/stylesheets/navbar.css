@@ -1,0 +1,22 @@
+/*
+ Styles for the navbar displayed at the top of the page at all times
+
+*/
+
+.nb-container{
+    width: 100%;
+    background: #6e028e;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nb-title p{
+    font-size: 24px;
+}
+
+.nb-sign-in{
+    margin-right: 30px;
+}

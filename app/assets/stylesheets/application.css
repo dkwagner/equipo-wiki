@@ -19,3 +19,14 @@
      font-size: 5em;
      margin-top: 1em;
  }
+
+ body{
+     margin: 0px;
+ }
+
+ .alert{
+    background: #bc1c1c;
+    color: white;
+    margin: 0;
+    padding: 5px;
+ }

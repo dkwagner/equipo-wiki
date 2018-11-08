@@ -1,0 +1,14 @@
+<div class='nb-container'>
+    <div class='nb-title'>
+        <p>Equipo Wiki</p>
+    </div>
+    <div class='nb-sign-in'>
+        <% if admin_signed_in? %>
+            <%= link_to 'Sign Out', destroy_admin_session_path, method: :delete %>
+            <%= link_to 'Edit Admin Profile', edit_admin_registration_path %>
+        <% else %>
+            <%= link_to 'Sign In', new_admin_session_path %>
+            <%= link_to 'Sign Up', new_admin_registration_path %>
+        <% end %>
+    </div>
+</div>

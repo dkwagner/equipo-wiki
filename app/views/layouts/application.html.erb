@@ -16,6 +16,7 @@
   <% if alert %>
     <p class="alert alert-danger"><%= alert %></p>
   <% end %>
+    <%=render '/layouts/nav-bar'%>
     <%= yield %>
   </body>
 </html>
