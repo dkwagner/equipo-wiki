@@ -1,6 +1,23 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/models/admin.rb": [
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/helpers/admins_helper.rb": [
+        1,
+        null
+      ],
       "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/helpers/application_helper.rb": [
         1,
         null
@@ -25,7 +42,75 @@
         1,
         null
       ],
+      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/controllers/admins_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/controllers/application_controller.rb": [
+        1,
+        null
+      ],
       "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/controllers/articles_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/controllers/home_controller.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/controllers/images_controller.rb": [
         1,
         1,
         null,
@@ -101,98 +186,7 @@
         null,
         null
       ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/controllers/application_controller.rb": [
-        1,
-        null
-      ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/controllers/home_controller.rb": [
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/controllers/images_controller.rb": [
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null,
-        null
-      ],
       "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/models/article.rb": [
-        1,
-        null
-      ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/models/application_record.rb": [
-        1,
         1,
         null
       ],
@@ -223,6 +217,6 @@
         0
       ]
     },
-    "timestamp": 1540422137
+    "timestamp": 1542041483
   }
 }
