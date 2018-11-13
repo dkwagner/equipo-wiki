@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :article_histories
   devise_for :admins
   get 'users/new'
   get 'home/index'
