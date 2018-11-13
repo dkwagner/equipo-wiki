@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/models/admin.rb": [
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/models/admin.rb": [
         1,
         null,
         null,
@@ -9,48 +9,48 @@
         null,
         null
       ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/models/application_record.rb": [
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/helpers/admins_helper.rb": [
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/helpers/admins_helper.rb": [
         1,
         null
       ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/helpers/application_helper.rb": [
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/helpers/article_helper.rb": [
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/helpers/article_helper.rb": [
         1,
         null
       ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/helpers/articles_helper.rb": [
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/helpers/articles_helper.rb": [
         1,
         null
       ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/helpers/home_helper.rb": [
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/helpers/home_helper.rb": [
         1,
         null
       ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/helpers/image_helper.rb": [
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/helpers/image_helper.rb": [
         1,
         null
       ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/helpers/images_helper.rb": [
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/helpers/images_helper.rb": [
         1,
         null
       ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/controllers/admins_controller.rb": [
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/controllers/admins_controller.rb": [
         1,
         null
       ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/controllers/application_controller.rb": [
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/controllers/application_controller.rb": [
         1,
         null
       ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/controllers/articles_controller.rb": [
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/controllers/articles_controller.rb": [
         1,
         1,
         1,
@@ -104,13 +104,13 @@
         null,
         null
       ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/controllers/home_controller.rb": [
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/controllers/home_controller.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/controllers/images_controller.rb": [
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/controllers/images_controller.rb": [
         1,
         1,
         null,
@@ -186,37 +186,37 @@
         null,
         null
       ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/models/article.rb": [
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/models/article.rb": [
         1,
         null
       ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/models/image.rb": [
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/models/image.rb": [
         1,
         null
       ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/mailers/application_mailer.rb": [
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/mailers/application_mailer.rb": [
         0,
         0,
         0,
         0
       ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/jobs/application_job.rb": [
-        0,
-        0
-      ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/channels/application_cable/connection.rb": [
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/channels/application_cable/connection.rb": [
         0,
         0,
         0,
         0
       ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/channels/application_cable/channel.rb": [
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/channels/application_cable/channel.rb": [
         0,
         0,
         0,
         0
       ]
     },
-    "timestamp": 1542041483
+    "timestamp": 1542070368
   }
 }
