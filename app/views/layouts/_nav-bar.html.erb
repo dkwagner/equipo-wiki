@@ -2,6 +2,9 @@
     <div class='nb-title'>
         <a href="/">Equipo Wiki</a>
     </div>
+    <div class='nb-articles'>
+      <%= link_to 'Articles', articles_path %>
+    </div>
     <div class='nb-sign-in'>
         <% if admin_signed_in? %>
             <%= link_to 'Sign Out', destroy_admin_session_path, method: :delete %>

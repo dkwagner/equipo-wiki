@@ -25,6 +25,11 @@ a{
     font-size: 24px;
 }
 
+.nb-articles a{
+    height: 100%;
+    font-size: 20px;
+}
+
 .nb-sign-in a{
     height: 100%;
     margin-right: 30px;
