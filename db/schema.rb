@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 2018_11_13_012655) do
     t.text "body"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["parent_article"], name: "index_article_histories_on_article_id"
+    t.index [nil], name: "index_article_histories_on_article_id"
   end
 
   create_table "articles", force: :cascade do |t|

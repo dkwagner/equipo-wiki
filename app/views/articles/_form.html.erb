@@ -22,3 +22,8 @@
     <%= f.submit %>
   </div>
 <% end %>
+<%= @article_histories.each do |article_history| %>
+  <% if article_history != @article_histories.last %>
+    <hr />
+  <% end %>
+<% end %>
