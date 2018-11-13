@@ -1,2 +1,7 @@
 <%= "Editing #{@article.title}" %>
 <%= render "form" %>
+<%= @article_histories.each do |article_history| %>
+  <% if article_history != @article_histories.last %>
+    <hr />
+  <% end %>
+<% end %>

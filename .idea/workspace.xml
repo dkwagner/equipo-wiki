@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54735c17-ea69-4297-a7f3-5ca014a89192" name="Default Changelist" comment="" />
+    <list default="true" id="54735c17-ea69-4297-a7f3-5ca014a89192" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/articles/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/articles/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/edit.html.erb" afterDir="false" />
+    </list>
     <list id="17f1e5ed-4d17-46ee-9f59-5437e1f59297" name="added initial .travis.yml" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -18,7 +23,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/equipo_wiki@test__equipo_wiki.rcov" NAME="test: equipo-wiki Coverage Results" MODIFIED="1540320716942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="equipo-wiki" />
     <SUITE FILE_PATH="coverage/equipo_wiki@spec__equipo_wiki.rcov" NAME="spec: equipo-wiki Coverage Results" MODIFIED="1541704722892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="equipo-wiki" />
-    <SUITE FILE_PATH="coverage/equipo_wiki@Development__equipo_wiki.rcov" NAME="Development: equipo-wiki Coverage Results" MODIFIED="1542125952373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="equipo-wiki" />
+    <SUITE FILE_PATH="coverage/equipo_wiki@Development__equipo_wiki.rcov" NAME="Development: equipo-wiki Coverage Results" MODIFIED="1542129927542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="equipo-wiki" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -62,9 +67,9 @@
           <entry key="CSS" value="54" />
           <entry key="Dockerfile" value="293" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1044" />
-          <entry key="RHTML" value="250" />
-          <entry key="Ruby" value="160" />
+          <entry key="PLAIN_TEXT" value="1099" />
+          <entry key="RHTML" value="255" />
+          <entry key="Ruby" value="163" />
           <entry key="YAML" value="181" />
         </counts>
       </usages-collector>
@@ -72,10 +77,10 @@
         <counts>
           <entry key="Dockerfile" value="293" />
           <entry key="css" value="54" />
-          <entry key="erb" value="250" />
+          <entry key="erb" value="255" />
           <entry key="md" value="1" />
-          <entry key="rb" value="160" />
-          <entry key="txt" value="1044" />
+          <entry key="rb" value="163" />
+          <entry key="txt" value="1099" />
           <entry key="yml" value="181" />
         </counts>
       </usages-collector>
@@ -90,7 +95,7 @@
           <entry key="bundle" value="1" />
           <entry key="coffee" value="2" />
           <entry key="css" value="1" />
-          <entry key="erb" value="26" />
+          <entry key="erb" value="29" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="2" />
           <entry key="jbuilder" value="1" />
@@ -119,7 +124,7 @@
           <entry key="JavaScript" value="2" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="RHTML" value="26" />
+          <entry key="RHTML" value="29" />
           <entry key="Ruby" value="58" />
           <entry key="SCSS" value="1" />
           <entry key="YAML" value="5" />
@@ -147,16 +152,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/articles/_form.html.erb">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/articles/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/articles/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/article_histories_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
@@ -168,8 +182,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="50" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="50" />
+            <state relative-caret-position="525">
+              <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -190,8 +204,10 @@
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_nav-bar.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/navbar.css" />
-        <option value="$PROJECT_DIR$/app/views/articles/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/article_histories_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/articles/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/articles/edit.html.erb" />
       </list>
     </option>
   </component>
@@ -555,7 +571,7 @@
       <workItem from="1540404312862" duration="341000" />
       <workItem from="1540404688807" duration="22758000" />
       <workItem from="1541703590480" duration="2800000" />
-      <workItem from="1541973999401" duration="16645000" />
+      <workItem from="1541973999401" duration="17897000" />
     </task>
     <task id="LOCAL-00001" summary="added initial .travis.yml">
       <created>1540404386221</created>
@@ -655,7 +671,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542127655208</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="adding more files related to article_history">
+      <created>1542128374817</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1542128374817</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -682,10 +705,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50940000" />
+    <option name="totallyTimeSpent" value="52192000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-37" width="1920" height="1117" extended-state="7" />
+    <frame x="0" y="-37" width="1920" height="1117" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15170941" />
@@ -754,7 +777,8 @@
     <MESSAGE value="created scaffold for article history" />
     <MESSAGE value="navbar now has article button to click" />
     <MESSAGE value="created migration / scaffold for article_history, attempted printing them in the edit form page" />
-    <option name="LAST_COMMIT_MESSAGE" value="created migration / scaffold for article_history, attempted printing them in the edit form page" />
+    <MESSAGE value="adding more files related to article_history" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding more files related to article_history" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -908,9 +932,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -945,10 +966,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/article_histories_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="50" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="50" />
+        <state relative-caret-position="525">
+          <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -961,15 +989,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/articles/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+        <state relative-caret-position="345">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/article_histories_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/articles/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

@@ -33,6 +33,7 @@ class ArticlesController < ApplicationController
   
     def edit
       @article = Article.find(params[:id])
+      @article_histories = ArticleHistory.order("created_at DESC")
     end
   
     def update
