@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Article:</strong>
+  <%= @article_history.article_id %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @article_history.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @article_history.body %>
+</p>
+
+<%= link_to 'Edit', edit_article_history_path(@article_history) %> |
+<%= link_to 'Back', article_histories_path %>

@@ -1,0 +1,2 @@
+class ArticleHistory < ApplicationRecord
+end

@@ -1,0 +1,2 @@
+module ArticleHistoriesHelper
+end

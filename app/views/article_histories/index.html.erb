@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Article Histories</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Article</th>
+      <th>Title</th>
+      <th>Body</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @article_histories.each do |article_history| %>
+      <tr>
+        <td><%= article_history.article_id %></td>
+        <td><%= article_history.title %></td>
+        <td><%= article_history.body %></td>
+        <td><%= link_to 'Show', article_history %></td>
+        <td><%= link_to 'Edit', edit_article_history_path(article_history) %></td>
+        <td><%= link_to 'Destroy', article_history, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Article History', new_article_history_path %>
