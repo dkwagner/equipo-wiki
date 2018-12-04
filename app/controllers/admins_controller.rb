@@ -1,2 +1,3 @@
 class AdminsController < ApplicationController
+    
 end

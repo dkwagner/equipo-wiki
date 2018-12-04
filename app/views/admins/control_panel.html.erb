@@ -1,0 +1,9 @@
+<% if admin_signed_in? %>
+    <% if no_verified_admins %>
+        <h1>No Verified Admins</h1>
+    <% else %>
+        <h1>Verified Admin Exists</h1>
+    <% end %>
+<% else %>
+    <%= redirect_to root_path%>
+<% end %>
