@@ -24,15 +24,25 @@ class ArticlesController < ApplicationController
     # DELETE /articles/1.json
     def destroy
         @article = Article.find(params[:id])
-        @article.destroy
-        respond_to do |format|
-            format.html { redirect_to articles_url, notice: 'Article was successfully destroyed.' }
-            format.json { head :no_content }
+        if @article.locked? && !admin_signed_in?
+          flash[:notice] = "Article is currently locked from editing."
+          redirect_to articles_path
+        else
+          @article.destroy
+          respond_to do |format|
+              format.html { redirect_to articles_url, notice: 'Article was successfully destroyed.' }
+              format.json { head :no_content }
+          end
         end
     end
   
     def edit
       @article = Article.find(params[:id])
+
+      if @article.locked? && !admin_signed_in?
+        flash[:notice] = "Article is currently locked from editing"
+        redirect_to articles_path
+      end
     end
   
     def update
@@ -47,6 +57,6 @@ class ArticlesController < ApplicationController
   private
   
     def article_params
-      params.require(:article).permit(:title, :body)
+      params.require(:article).permit(:title, :body, :locked)
     end
   end
