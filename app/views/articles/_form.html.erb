@@ -18,6 +18,12 @@
   <div>
     <%= f.cktext_area :body, rows: 10 %>
   </div>
+  <% if admin_signed_in?%>
+    <div>
+      <%= f.label :locked, "Lock this article from editing?"%>
+      <%= f.check_box :locked%>
+    </div>
+  <% end %>
   <div>
     <%= f.submit %>
   </div>
