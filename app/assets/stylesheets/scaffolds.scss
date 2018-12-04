@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #52c0d8;
   color: #333;
   margin: 33px;
   font-family: verdana, arial, helvetica, sans-serif;
@@ -20,11 +20,11 @@ pre {
 }
 
 a {
-  color: #000;
+  color: #fff;
 
-  &:visited {
-    color: #666;
-  }
+  /* &:visited {
+    color: rgb(230, 230, 230);
+  } */
 
   &:hover {
     color: #fff;
