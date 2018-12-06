@@ -81,12 +81,22 @@
         0,
         0,
         0,
+        null,
         0,
+        0,
+        0,
+        0,
+        null,
         null,
         null,
         null,
         1,
         0,
+        null,
+        0,
+        0,
+        0,
+        null,
         null,
         null,
         1,
@@ -199,6 +209,43 @@
         0,
         0
       ],
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/models/ckeditor/picture.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/models/ckeditor/asset.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/dan/Documents/school/cs4711/equipo-wiki/app/models/ckeditor/attachment_file.rb": [
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0
+      ],
       "/home/dan/Documents/school/cs4711/equipo-wiki/app/mailers/application_mailer.rb": [
         0,
         0,
@@ -218,6 +265,6 @@
         0
       ]
     },
-    "timestamp": 1543951859
+    "timestamp": 1544108257
   }
 }

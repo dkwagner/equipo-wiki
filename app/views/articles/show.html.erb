@@ -3,7 +3,7 @@
 <h1>Title: <%= @article.title %></h1>
 
 <div>
-    <%= @article.body.html_safe%>
+    <%= @article.body.to_s.html_safe%>
 </div>
 
 
