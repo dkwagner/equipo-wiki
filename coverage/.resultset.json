@@ -199,6 +199,10 @@
       ],
       "/home/dan/Documents/school/cs4711/equipo-wiki/app/models/article.rb": [
         1,
+        1,
+        null,
+        1,
+        null,
         null
       ],
       "/home/dan/Documents/school/cs4711/equipo-wiki/app/models/image.rb": [
@@ -265,6 +269,6 @@
         0
       ]
     },
-    "timestamp": 1544108257
+    "timestamp": 1544113629
   }
 }

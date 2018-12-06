@@ -18,6 +18,14 @@
   <div>
     <%= f.cktext_area :body, rows: 10 %>
   </div>
+  <div>
+    <%= f.label :images, 'Upload Images'%>
+  </div>
+  <div>
+    <%= f.file_field :images, multiple: true, direct_upload: true %>
+  </div>
+  <div>
+  </div>
   <% if admin_signed_in?%>
     <div>
       <%= f.label :locked, "Lock this article from editing?"%>
