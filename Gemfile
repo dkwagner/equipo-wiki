@@ -18,6 +18,7 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'ckeditor', github: 'galetahub/ckeditor'
 gem 'paperclip'
+gem 'activestorage-validator'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
