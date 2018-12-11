@@ -1,0 +1,2 @@
+class BlockedIp < ApplicationRecord
+end

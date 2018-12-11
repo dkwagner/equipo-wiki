@@ -6,9 +6,6 @@
     <%= @article.body.to_s.html_safe%>
 </div>
 <div>
-    <%= @article.body.to_s.html_safe%>
-</div>
-<div>
     <% @article.images.each do |image| %>
         <%= image_tag url_for(image) %>
     <% end %>

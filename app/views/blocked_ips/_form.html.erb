@@ -1,0 +1,22 @@
+<%= form_with(model: blocked_ip, local: true) do |form| %>
+  <% if blocked_ip.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(blocked_ip.errors.count, "error") %> prohibited this blocked_ip from being saved:</h2>
+
+      <ul>
+      <% blocked_ip.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :ip %>
+    <%= form.text_field :ip %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
