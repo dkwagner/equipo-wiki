@@ -215,38 +215,7 @@
         0,
         0
       ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/models/ckeditor/attachment_file.rb": [
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        0,
-        0
-      ],
       "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/models/ckeditor/asset.rb": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "/Users/bryanheath/Desktop/intellij projects/equipo-wiki/app/models/ckeditor/picture.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        0,
-        null,
         0,
         0,
         0,
@@ -269,6 +238,6 @@
         0
       ]
     },
-    "timestamp": 1544460880
+    "timestamp": 1544555829
   }
 }
