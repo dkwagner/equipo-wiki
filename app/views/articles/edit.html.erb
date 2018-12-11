@@ -4,7 +4,7 @@
 <% @article.versions.each do |version|%>
   <hr/>
   <div>
-    Revision: <%= version.id %>
+    Revision <%= version.id %> made on <%= version.created_at %>
   </div>
   <h1>Title: <%= version.changed_object.title %></h1>
   <div>
