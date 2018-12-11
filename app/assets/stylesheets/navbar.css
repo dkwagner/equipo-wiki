@@ -32,3 +32,9 @@ a{
     font-size: 16px;
     margin-right: 30px;
 }
+
+.nb-article{
+    height: 100%;
+    color: white;
+    font-size: 24px;
+}
