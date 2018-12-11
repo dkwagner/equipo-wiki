@@ -1,2 +1,13 @@
 <%= "Editing #{@article.title}" %>
 <%= render "form" %>
+<br />
+<% @article.versions.each do |version|%>
+  <hr/>
+  <div>
+    Revision: <%= version.id %>
+  </div>
+  <h1>Title: <%= version.changed_object.title %></h1>
+  <div>
+  <%= version.changed_object.body.to_s.html_safe%>
+  </div>
+<% end %>
