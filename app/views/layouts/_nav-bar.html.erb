@@ -2,13 +2,14 @@
     <div class='nb-title'>
         <a href="/">Equipo Wiki</a>
     </div>
-  <div class='nb-title'>
-    <%= link_to 'Articles', articles_path %>
-  </div>
+    <div class='nb-article'>
+        <%= link_to 'Articles', articles_path %>
+    </div>
     <div class='nb-sign-in'>
         <% if admin_signed_in? %>
             <%= link_to 'Sign Out', destroy_admin_session_path, method: :delete %>
             <%= link_to 'Edit Admin Profile', edit_admin_registration_path %>
+            <%= link_to 'Control Panel', blocked_ips_path%>
         <% else %>
             <%= link_to 'Sign In', new_admin_session_path %>
             <%= link_to 'Sign Up', new_admin_registration_path %>

@@ -1,0 +1,2 @@
+module BlockedIpsHelper
+end

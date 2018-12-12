@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :blocked_ips
   devise_for :admins
   get 'users/new'
   get 'home/index'

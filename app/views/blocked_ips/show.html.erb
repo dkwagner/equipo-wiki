@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Ip:</strong>
+  <%= @blocked_ip.ip %>
+</p>
+
+<%= link_to 'Edit', edit_blocked_ip_path(@blocked_ip) %> |
+<%= link_to 'Back', blocked_ips_path %>
