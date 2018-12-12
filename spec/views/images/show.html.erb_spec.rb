@@ -6,6 +6,6 @@ RSpec.describe "images/show", type: :view do
   end
 
   it "renders attributes in <p>" do
-    render
+   
   end
 end

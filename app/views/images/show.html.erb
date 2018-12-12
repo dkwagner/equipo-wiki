@@ -1,4 +1,11 @@
 <p id="notice"><%= notice %></p>
-
-<%= link_to 'Edit', edit_image_path(@image) %> |
-<%= link_to 'Back', images_path %>
+<div>
+        <%= image_tag url_for(@imageAtt) %>
+        <p> Image Uploaded On: <%= @imageAtt.created_at %> 
+        </br>
+        Size: <%= @imageBlob.byte_size %> bytes
+        </br>
+        Dimensions: Width: <%= @imageBlob.metadata["width"] %> Height: <%= @imageBlob.metadata["height"] %>
+        </p>
+</div>
+<%= link_to 'Articles', articles_path %>

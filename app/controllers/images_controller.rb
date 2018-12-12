@@ -64,7 +64,8 @@ class ImagesController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_image
-      @image = Image.find(params[:id])
+      @imageAtt = ActiveStorage::Attachment.find(params[:id])
+      @imageBlob = ActiveStorage::Blob.find(@imageAtt.blob_id)
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
