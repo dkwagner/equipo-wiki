@@ -66,6 +66,7 @@ class ImagesController < ApplicationController
     def set_image
       @imageAtt = ActiveStorage::Attachment.find(params[:id])
       @imageBlob = ActiveStorage::Blob.find(@imageAtt.blob_id)
+      @article = Article.find(@imageAtt.record_id)
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
